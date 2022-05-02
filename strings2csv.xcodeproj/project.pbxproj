@@ -29,6 +29,7 @@
 		630068D1279F504300DF3553 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		630068DA279F50C300DF3553 /* CLI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLI.swift; sourceTree = "<group>"; };
 		630068DC279F53E000DF3553 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		63F203FF281FCE1E008E8AE6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		630068C5279F504300DF3553 = {
 			isa = PBXGroup;
 			children = (
+				63F203FF281FCE1E008E8AE6 /* README.md */,
 				630068D0279F504300DF3553 /* strings2csv */,
 				630068CF279F504300DF3553 /* Products */,
 			);
@@ -96,7 +98,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					630068CD279F504300DF3553 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -253,6 +255,7 @@
 		630068D6279F504300DF3553 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7JBVTX94L2;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -264,6 +267,7 @@
 		630068D7279F504300DF3553 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7JBVTX94L2;
 				ENABLE_HARDENED_RUNTIME = YES;

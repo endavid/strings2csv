@@ -10,7 +10,7 @@ import Foundation
 func stringsFileToDictionary(_ lines: [String]) -> [String: String] {
     var dict: [String: String] = [:]
     for s in lines {
-        let g = getGroupsFromRegex(pattern: #"^"(\w+)"\s*=\s*(".+");\s*$"#, in: s)
+        let g = getGroupsFromRegex(pattern: #"^"([-\.\w]+)"\s*=\s*(".+");\s*$"#, in: s)
         if g.count == 0 {
             continue
         }
